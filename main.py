@@ -14,6 +14,8 @@ app = FastAPI(
         "url": "https://twitter.com/bandersnatchx64",
         "email": "lordareello@gmail.com",
     },
+    host = 'host=grpcs://nowapi-ef7f7d45db.wolf.jina.ai',
+    port = '31080',
 )
 
 
