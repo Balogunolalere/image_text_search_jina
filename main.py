@@ -5,13 +5,22 @@ from app.api.v1.api import router as api_router
 
 
 
-app = FastAPI()
+app = FastAPI(
+    title='Now Image | Text -> Image Search',
+    description='Text -> Image Search',
+    version='1.0.0',
+    contact={
+        "name": "bandersnatchx64",
+        "url": "https://twitter.com/bandersnatchx64",
+        "email": "lordareello@gmail.com",
+    },
+)
 
 
-TITLE = 'Jina NOW'
-DESCRIPTION = 'The Jina NOW service API'
-AUTHOR = 'Jina AI'
-EMAIL = 'hello@jina.ai'
+TITLE = 'Jina Image | Text -> Image Search'
+DESCRIPTION = 'Jina Image | Text -> Image Search Api'
+AUTHOR = 'Bandersnatchx64'
+EMAIL = 'lordareello@gmail.com'
 __version__ = 'latest'
 
 
