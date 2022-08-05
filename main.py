@@ -7,7 +7,7 @@ from app.api.v1.api import router as api_router
 
 app = FastAPI(
     title='Now Image | Text -> Image Search',
-    description='Text -> Image Search',
+    description='Text | Image -> Image Search',
     version='1.0.0',
     contact={
         "name": "bandersnatchx64",
