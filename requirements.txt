@@ -1,3 +1,4 @@
-fastapi
+fastapi[all]
 jina
 docarray
+gunicorn
