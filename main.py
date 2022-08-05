@@ -14,8 +14,7 @@ app = FastAPI(
         "url": "https://twitter.com/bandersnatchx64",
         "email": "lordareello@gmail.com",
     },
-    host = 'host=grpcs://nowapi-ef7f7d45db.wolf.jina.ai',
-    port = '31080',
+    
 )
 
 
@@ -36,6 +35,8 @@ async def root():
         "author": AUTHOR,
         "email": EMAIL,
         "version": __version__,
+        "host" : 'host=grpcs://nowapi-ef7f7d45db.wolf.jina.ai',
+        "port": '31080',
     }
 
 app.include_router(api_router, prefix='/api/v1')
